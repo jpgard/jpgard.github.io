@@ -1,14 +1,158 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0040)https://homes.cs.washington.edu/~jpgard/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<html>
-<head>
-	<title>jpgard.github.io</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<title>Joshua P. Gardner</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="./index_files/analytics.js"></script><script async="" src="./index_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72204179-1');
+</script>
+
 </head>
+
 <body>
+	<div id="linksBar">
+		<div id="linksContainer">
+			<div id="nameText">
+				Joshua P. Gardner
+			</div>
+			<div id="linksText">
+				<a class="navLink" href="index.html">About</a> | 
+				<a class="navLink" href="publications.html">Publications</a> 
+				<!-- <a class="navLink" href="software.html">Software</a> -->
+			</div>
+		</div>
+	</div>
+	
 
-<h1>Hello World</h1>
+	<div id="content">
+		<table>
+			<tbody><tr>
+				<td id="align_top_no_padding"><img id="about_img" src="./images/headshot_2022.png" alt="Josh"></td>
+				<td id="align_top_text">
+					<p>
+						<span style="font-weight: bold; font-size: 22px">Joshua P. Gardner</span><br><br>
+						Research Scientist, Foundation Models<br>
+						Apple<br>
+						<a href="https://scholar.google.com/citations?user=SSq1t_YAAAAJ&hl=en">Google Scholar</a>  | <a href="https://github.com/jpgard/">Github</a> | <a href="https://www.linkedin.com/in/josh-gardner-a123101a/">Linkedin</a> | <a href="publications.html">Publications List</a>
+					</p>
+				</td>
+			</tr>
+		</tbody></table>
+		<p>
+			I am a research scientist on the foundation modeling team at Apple. Our team develops the fundamental research insights, models, and methods that drive Apple Foundation Models and Apple Intelligence.
+		</p>
+		<p> 
+			I received a PhD in computer science from the University of Washington's Paul G. Allen School of Computer Science &amp; Engineering, where I was fortunate to be advised by <a href="http://people.csail.mit.edu/ludwigs/index.html">Ludwig Schmidt</a>. I hold an M.S. in Applied Statistics and an M.S. in Information Science from the University of Michigan. I also hold a B.A. with Highest Honors in Philosophy from the University of Michigan.
+		</p>
+		<p>
+			My research focuses on empirical machine learning: designing controlled experiments to understand artificial intelligence/machine learning models, and using the insights from this experimentation to develop improved models. My recent research applies this lens to the training and fine-tuning of large "foundation" models. I am particularly interested in the impact of data on machine learning models, and how we can develop models that understand new kinds of data or reason across modalities. I have studied a diverse set of problems under this general theme, including those related to tabular data, large language models, multimodal learning, music and audio, and federated and collaborative learning.
+		</p>
 
-	<p>This is a GitHub Page! More coming soon!</p>
+		<!-- <p>
+			Awards and honors for my past work include a Best Paper Award at the International Conference on Learning Analytics and Knowledge (LAK), the <a href="https://www.si.umich.edu/newsandevents/margaret-mann-award-recipients-1941-present">Margaret Mann Award</a>, the UMSI <a href="https://www.si.umich.edu/news/professional-practice-fellows-test-classroom-lessons-leading-companies">Professional Practice Fellowship</a>, and the <a href="https://lsa.umich.edu/philosophy/undergraduates/prizes.html">William K. Frankena Prize</a>.
+		</p> -->
 
-</body>
-</html>
+		<p></p>
+		<h2>Selected Publications</h2>
+
+		<p> For a full list of publications see my <a href="publications.html">research page</a> or <a href="https://scholar.google.com/citations?user=SSq1t_YAAAAJ&hl=en">Google Scholar profile</a>.</p>
+		<ul>
+					<li>
+					<span id="publication_title">Large Scale Transfer Learning for Tabular Data via Language Modeling</span><br>
+					<span id="publications_text_highlighted">Josh Gardner</span>, Juan C. Perdomo, Ludwig Schmidt.<br>
+					Neural Information Processing Systems (NeurIPS) 2024.<br>
+				  <a href="https://arxiv.org/abs/2406.12031">[arxiv]</a> <a href="https://github.com/mlfoundations/rtfm">[code]</a> <a href="https://huggingface.co/collections/mlfoundations/tabula-8b-6671b8f1a51a6df17e612c6d">[model + data]</a>
+				  </li>
+		</ul>
+
+		<ul>
+					<li>
+					<span id="publication_title">DataComp-LM: In search of the next generation of training sets for language models</span><br>
+					Neural Information Processing Systems (NeurIPS) 2024 (Datasets & Benchmarks Track).<br>
+					Jeffrey Li, Alex Fang, Georgios Smyrnis, Maor Ivgi, [...] <span id="publications_text_highlighted">Josh Gardner</span>, [...], Achal Dave, Ludwig Schmidt, Vaishaal Shankar. (59 total authors)<br>
+				  <a href="https://arxiv.org/abs/2406.11794">[arxiv]</a> <a href="https://www.datacomp.ai/dclm/">[web]</a>
+				  </li>
+		</ul>
+
+		<ul>
+					<li>
+					<span id="publication_title">LLark: A Multimodal Instruction-Following Language Model for Music</span><br>
+					<span id="publications_text_highlighted">Josh Gardner</span>, Simon Durand, Daniel Stoller, Rachel Bittner.<br>
+					International Conference on Machine Learning (ICML) 2024.<br>
+				  <a href="https://arxiv.org/abs/2310.07160">[arxiv]</a> <a href="https://github.com/spotify-research/llark">[code]</a> <a href="http://storage.googleapis.com/music2text-public/index.html">[web]</a> <a href="https://research.atspotify.com/2023/10/llark-a-multimodal-foundation-model-for-music/">[blog]</a>
+				  </li>
+		</ul>
+
+		<ul>
+					<li>
+					<span id="publication_title">Benchmarking Distribution Shift in Tabular Data with TableShift </span><br>
+					<span id="publications_text_highlighted">Josh Gardner</span>, Zoran Popovi&#263, Ludwig Schmidt.
+				  <br>Neural Information Processing Systems (NeurIPS) 2023 (Datasets & Benchmarks Track).<br>
+				  <a href="https://arxiv.org/abs/2312.07577">[arxiv]</a> <a href="https://github.com/mlfoundations/tableshift">[code]</a> <a href="https://tableshift.org">[web]</a>
+				  </li>
+		</ul>
+
+		<ul>
+						<li>
+						<span id="publication_title">Cross-Institutional Transfer Learning for Educational Models: Implications for Model Performance, Fairness, and Equity</span><br>
+						<span id="publications_text_highlighted">Josh Gardner</span>, Renzhe Yu, Quan Nguyen, Christopher Brooks, Rene Kizilcec.
+						<br>ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT) 2023.
+						<br> <a href="papers/facct23-transfer.pdf">[pdf]</a> <a href="https://arxiv.org/abs/2305.00927">[arxiv]</a> <a href="https://github.com/educational-technology-collective/cross-institutional-transfer-learning-facct-2023">[code]</a>
+						</li>
+		</ul>	
+
+		<ul>
+					<li>
+					<span id="publication_title">Subgroup Robustness Grows on Trees: An Empirical Baseline Study</span><br>
+					<span id="publications_text_highlighted">Josh Gardner</span>, Zoran Popovi&#263, Ludwig Schmidt.
+				  <br>Neural Information Processing Systems (NeurIPS) 2022.
+				  <br> <a href="https://arxiv.org/abs/2211.12703">[arxiv]</a> <a href="https://github.com/jpgard/subgroup-robustness-grows-on-trees">[code]</a>
+				  </li>
+		</ul>
+
+		<ul>
+					<li>
+					<span id="publication_title">OpenFlamingo: An Open-Source Framework for Training Vision-Language Models with In-Context Learning</span><br>
+					Anas Awadalla, Irena Gao, <span id="publications_text_highlighted">Josh Gardner</span>, Jack Hessel, Yusuf Hanafy, Wanrong Zhu, Kalyani Marathe, Yonatan Bitton, Samir Gadre, Jenia Jitsev, Simon Kornblith, Pang Wei Koh, Gabriel Ilharco, Mitchell Wortsman, Ludwig Schmidt.
+				  <br><a href="https://arxiv.org/abs/2308.01390">[arxiv]</a> <a href="https://laion.ai/blog/open-flamingo/">[blog]</a> <a href="https://github.com/mlfoundations/open_flamingo">[code]</a>
+				  </li>
+		</ul>
+
+		<ul>
+					<li>
+						<span id="publication_title">MT3: Multi-Task Multitrack Music Transcription</span><br>
+					<span id="publications_text_highlighted">Josh Gardner</span>, Ian Simon, Ethan Manilow, Curtis Hawthorne, Jesse Engel.
+					<br>International Conference on Learning Representations (ICLR) 2022.
+					<br><span id="publication_award">Spotlight Presentation (top 6.7% of submissions)</span>
+					<br><a target="_blank" href="https://arxiv.org/abs/2111.03017">[arxiv]</a>
+							<a target="_blank" href="https://storage.googleapis.com/mt3/index.html">[web]</a> 
+							<a href="https://magenta.tensorflow.org/transcription-with-transformers">[blog]</a>
+							<a href="https://github.com/magenta/mt3">[code]</a>
+					
+				  </li>
+		</ul>
+
+		<ul>
+					<li>
+						<span id="publication_title">Evaluating the Fairness of Predictive Student Models Through Slicing Analysis</span><br>
+					<span id="publications_text_highlighted">Josh Gardner</span>, Christopher Brooks, and Ryan Baker.<br>
+					International Conference on Learning Analytics and Knowledge (LAK) 2019.
+					<br><span id="publication_award">Best Paper Award</span>
+					<br><a target="_blank" href="papers/lak19_slicing.pdf">[pdf]</a></p>
+					
+				  </li>
+		</ul>
+
+
+		<p></p>
+		
+	</div>
+
+</body></html>
